@@ -1,3 +1,15 @@
-# Global Fungal Distribution Data Acquisition
+# Data-Acquisition
 
-Python scripts for obtaining global fungal distribution data from public biodiversity databases via web APIs.
+Python scripts for fetching global fungal occurrence records from public biodiversity databases.
+
+# Data Sources
+
+GBIF https://www.gbif.org/
+MyCoPortal https://www.mycoportal.org/
+
+# Files
+
+Fungi Name.xls Input species list with scientific names 
+GBIF occurrence obtaining.py Batch query GBIF occurrence records by species name; outputs CSV and shapefile
+MyCoPortal occurrence obtaining.py Batch query MyCoPortal occurrence records, with automatic GBIF fallback
+Merge occurrence data.py Batch-merge downloaded ZIP archives into combined CSV files 
