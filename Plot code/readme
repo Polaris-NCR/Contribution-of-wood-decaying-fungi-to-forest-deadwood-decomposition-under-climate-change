@@ -1,1 +1,25 @@
+# Plot Code
 
+Python scripts for generating all main-text and supplementary figures reported in the study.
+
+# Dependencies
+
+matplotlib,seaborn, geopandas, cartopy, rasterio, GDAL, numpy, pandas, shap, scikit-learn, joblib`
+
+# Main Figures
+
+Figure 1 panel a.py World map of fungal species occurrence records 
+Figure 1 panel b.py Deadwood carbon pool by biome (Boreal, Temperate, Tropical) 
+Figure 1 panel c.py Decay rate constant *K* vs. temperature, grouped by white-rot and brown-rot fungi 
+Figure 2 panel c.py Latitudinal pattern of fungal species richness 
+Figure 2 panel d.py SHAP dependence plots for species distribution model (SDM) feature importance 
+Figure 3 carbon bar.py Net carbon release bar chart across climate scenarios (Baseline, SSP245, SSP585) by biome 
+Figure 4.py Stacked bar chart of carbon fluxes by fungal functional groups 
+
+# Supplementary Figures
+
+Figure S Exponential fitting of the decay rate constant K as a function of temperature for individual fungal species.py Per-species exponential fit of decay rate constant *K* vs. temperature
+Figure S Multi-model averaged AUC-ROC curves for species distribution models (SDM).py Multi-model averaged AUC-ROC curves for SDM evaluation 
+Figure S Per-species line chart of climate scenario dimensions.py Line plot of climate scenario dimensions for individual fungal species 
+Figure S Violin plot of SDM accuracy.py Violin plot of SDM accuracy (AUC-ROC) across species 
+Figure sup SDM latitude.py Latitudinal analysis of species distribution model outputs 
