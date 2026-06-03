@@ -11,7 +11,7 @@ Plot Code/                 # Figure-generation scripts for main text and supplem
 
 # Dependencies
 
-**Python** — `numpy`, `pandas`, `scipy`, `scikit-learn`, `matplotlib`, `seaborn`, `geopandas`, `rasterio`, `cartopy`, `GDAL`, `shap`, `joblib`, `pygbif`,`arcpy`
-**Google Earth Engine** 
+*Python* — `numpy`, `pandas`, `scipy`, `scikit-learn`, `matplotlib`, `seaborn`, `geopandas`, `rasterio`, `cartopy`, `GDAL`, `shap`, `joblib`, `pygbif`,`arcpy`
+*Google Earth Engine* 
 
-# Result figures (global maps, model evaluation plots, etc.) are large GeoTIFF files (~2 GB each) and exceed GitHub's 100 MB file size limit. They are available at PKU disk.
+Result figures (global maps, model evaluation plots, etc.) are large GeoTIFF files (~2 GB each) and exceed GitHub's 100 MB file size limit. They are available at PKU disk.
