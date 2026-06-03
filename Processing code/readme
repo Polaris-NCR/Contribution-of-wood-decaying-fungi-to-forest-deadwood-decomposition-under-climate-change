@@ -1,1 +1,65 @@
-# Processing code
+# Processing Code
+
+Python scripts for data processing, SDM & decomposition model, Carbon flux estimation, geospatial analysis
+
+# Google Earth Engine (GEE)
+Species distribution model (SDM) construction and total carbon decomposition calculations were performed on the GEE platform. The scripts are available at:
+Amyloporiaxantha SDM: https://code.earthengine.google.com/dee65ac409e19738da54fb0c0982f5b3
+Amyloporiaxantha carbon: https://code.earthengine.google.com/6d66bb83e37416c40b68ac3801e096be
+Fomesfomentarius SDM: https://code.earthengine.google.com/af1c455bc610ada0c5e8ce0f8d09b97e
+Fomesfomentarius carbon: https://code.earthengine.google.com/9d8c832b6c5553613f52f4e1914a0a3b
+Fomitiporiahartigii SDM: https://code.earthengine.google.com/747e8ed0099648b6fb913901b085fd01
+Fomitiporiahartigii carbon: https://code.earthengine.google.com/d62eb75a61c42cb3d29af7a51b430fa2
+Fomitopsispinicola SDM: https://code.earthengine.google.com/c5a4c7c899e66d25144ca1f24f4bb3d9
+Fomitopsispinicola carbon: https://code.earthengine.google.com/940da91f3414e40eeef073474d1cf8e1
+Fuscoporiagilva SDM: https://code.earthengine.google.com/ebc2bcf78bcf27d0b4b21a061e239c7f
+Fuscoporiagilva carbon: https://code.earthengine.google.com/08976fa734f7ed52ac97afc744cddbb2
+Gloeophyllumtrabeum SDM: https://code.earthengine.google.com/fa9c310c99545074fb36f69a0c3aa365
+Gloeophyllumtrabeum carbon: https://code.earthengine.google.com/a778d68347a8c52eb1292686c75c1ad6
+Hyphodermasetigerum SDM: https://code.earthengine.google.com/83096d9c85b14cc7e362d4fe7f7f2a4c
+Hyphodermasetigerum carbon: https://code.earthengine.google.com/44ae557ce58a8b746dfb8a5227b44b41
+Laetiporusconifericola SDM: https://code.earthengine.google.com/0ed0298ade0b31638cee7fd31aa3ff53
+Laetiporusconifericola carbon: https://code.earthengine.google.com/adcaf83787c457787c4f4823587489fa
+Tyromyceschioneus SDM: https://code.earthengine.google.com/c13bf1e2113b698268bddbbb100b6647
+Tyromyceschioneus carbon: https://code.earthengine.google.com/01f3dac8e6541dce95c98cc9aee9e7fa
+Lyomycescrustosus SDM: https://code.earthengine.google.com/5e6f1047b0241b19b2ec0b97f9208d76
+Lyomycescrustosus carbon: https://code.earthengine.google.com/e47105035e2d4dae11d634f873945286
+Meruliustremellosus SDM: https://code.earthengine.google.com/e9331da2e55f5ef94acaf57585b054ac
+Meruliustremellosus carbon: https://code.earthengine.google.com/09e637fc4d0e78db89019f4700485c07
+Phellinusrobiniae SDM: https://code.earthengine.google.com/6e9817b565dd3bfcee24f4d764713f88
+Phellinusrobiniae carbon: https://code.earthengine.google.com/4fde3802f9d28745c4f760f972e6303f
+Phlebiopsisflavidoalba SDM: https://code.earthengine.google.com/7fe94953f146c9d7b7913684ca090eda
+Phlebiopsisflavidoalba carbon: https://code.earthengine.google.com/b66f1932dd1fa9af3e3c60d7a8b744cd
+Pleurotusostreatus SDM: https://code.earthengine.google.com/6e34c229df5c0e07c752e53536d07394
+Pleurotusostreatus carbon: https://code.earthengine.google.com/60e50dddc510d3dd7a101a9a588ec703
+Porodisculuspendulus SDM: https://code.earthengine.google.com/3292704a9c47eeba52fe151a74927872
+Porodisculuspendulus carbon: https://code.earthengine.google.com/ff3e609279bd2cf552853f23c8663757
+Rhodoniaplacenta SDM: https://code.earthengine.google.com/347852c95736636af1a3345b6b1a6161
+Rhodoniaplacenta carbon: https://code.earthengine.google.com/c9e00ac6e3ee21ba1b350110fd2b6900
+Trametessanguinea SDM: https://code.earthengine.google.com/88e4170605fb1b5f5652fa966adeb58a
+Trametessanguinea carbon: https://code.earthengine.google.com/f5b8ace93d4f4d09d4db1caa33d52447
+Trametesversicolor SDM: https://code.earthengine.google.com/c5d9ec0dba37f256c89560a7ede17333
+Trametesversicolor carbon: https://code.earthengine.google.com/ef3d1f76d597e86a5e7c621af0fc2b4b
+Xylobolussubpileatus SDM: https://code.earthengine.google.com/4a72e16c3fba1002fb8281f2153ba9b7
+Xylobolussubpileatus carbon: https://code.earthengine.google.com/46986bdd6e3f6697a69a6a869048ac89
+
+# Data processing
+Feature filter VIF+REFCV.py  Two-stage feature selection: VIF (Variance Inflation Factor) filtering followed by RFECV (Recursive Feature Elimination with Cross-Validation) |
+WorldClim bio variable extraction.py
+Arcpy batch processing GEE download images.py
+
+# Decay Rate Constant (K) Estimation
+Global map of baseline decay rate constant K.py  Estimate and map baseline decay rate constant K globally
+Global map of baseline decay rate constant K std.py  Baseline *K* mapping with uncertainty
+Global map of future decay rate constant K.py  Project future decay rate constant *K* under climate scenarios
+Global map of future decay rate constant K std.py.py  Future *K* mapping with uncertainty
+Estimating differential decay rates of standing versus downed deadwood.py Calculate decomposition rate differences between standing and downed deadwood
+
+# Carbon Flux Calculation
+Carbon flux fate calculation.py Calculate carbon fate partitioning (C retention, C emission, C sequestration) 
+Carbon flux fate std calculation.py Carbon fate calculation with uncertainty propagation 
+Carbon release of fungal functional groups.py Estimate carbon release by white-rot and brown-rot functional groups 
+
+# Fungal Community Analysis
+Fungal richness statistics by forest type.p  Calculate fungal species richness aggregated by forest type and region
+Competition intensity of fungal functional groups.py  Calculate competition intensity between fungal functional groups
