@@ -13,8 +13,3 @@ Plot Code/                 # Figure-generation scripts for main text and supplem
 
 *Python* — `numpy`, `pandas`, `scipy`, `scikit-learn`, `matplotlib`, `seaborn`, `geopandas`, `rasterio`, `cartopy`, `GDAL`, `shap`, `joblib`, `pygbif`,`arcpy`
 *Google Earth Engine* 
-
-Result figures (global maps, model evaluation plots, etc.) are large GeoTIFF files (~2 GB each) and exceed GitHub's 100 MB file size limit. 
-# They are available at Baidu Netdisk：
-Filename：Contribution of wood-decaying fungi to forest deadwood decomposition under climate change
-Link: https://pan.baidu.com/s/1FAgYr1qkY24TDpI1WrAYMw?pwd=kr8a Code: kr8a
