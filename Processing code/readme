@@ -47,6 +47,7 @@ Xylobolussubpileatus carbon: https://code.earthengine.google.com/46986bdd6e3f669
 Feature filter VIF+REFCV.py  Two-stage feature selection: VIF (Variance Inflation Factor) filtering followed by RFECV (Recursive Feature Elimination with Cross-Validation) |
 WorldClim bio variable extraction.py
 Arcpy batch processing GEE download images.py
+Calculation of deadwood.py
 
 # Decay Rate Constant (K) Estimation
 Global map of baseline decay rate constant K.py  Estimate and map baseline decay rate constant K globally
