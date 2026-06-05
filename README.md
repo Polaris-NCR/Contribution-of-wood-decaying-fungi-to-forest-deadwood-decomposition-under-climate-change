@@ -1,6 +1,6 @@
 # Contribution-of-wood-decaying-fungi-to-forest-deadwood-decomposition-under-climate-change
 
-Code and data for modeling the global distribution and carbon cycling contribution of wood-decaying fungi3
+Code and data for modeling the global distribution and carbon cycling contribution of wood-decaying fungi
 
 ## Repository Structure
 
